@@ -25,7 +25,7 @@ explorer7 is a **wrapper library** that allows Windows 7's explorer.exe to run p
 
 </details>
 
-## Known issues (Milestone 2 Update 3, last modified 2025-07-29)
+## Known issues (Milestone 2 Update 3, last modified 2026-03-13)
 These issues, unless specified to have been resolved in a later Windows version, are persistent across subsequent versions of Windows from their introduction.
 
 **MAKE SURE YOU READ THESE FIRST SO YOU ARE AWARE OF WHAT YOU ARE GETTING INTO!**
