@@ -41,9 +41,7 @@ These issues, unless specified to have been resolved in a later Windows version,
 - If a user has StartIsBack++ installed, it may attempt to erroneously hook the shell, causing both visual and functional issues.
 
 **Windows 11**
-- BlurBehind colorization mode no longer works due to the removal of the relevant accent policy (22H2+).
-- Taskbar and start menu pin creation is broken due to an internal shell32.dll code logic change (24H2+, 23H2 January 2025 Update+).
-- Immersive shell support does not function correctly, and cannot launch applications (Insider 25H2+).
+- Official support for Windows 11-based operating systems ended on February 21st 2026, as announced through official WWF channels. Issues present for these operating system versions will not be resolved going forward.
 
 **Windows 7 limitations/bugs**
 
@@ -249,7 +247,7 @@ We're working based on a series of development milestones. Here's the planned de
 | -------- | --------- | ------ |
 | Milestone 1 | Initial release focused on stability for Windows 8.1, and providing a starting point for Windows 10 support. |  |
 | Milestone 2 | - Achieving stability for Windows 10 and 11 (up to and including 23H2) <br> - Ensuring that behaviour on Windows 8.1 perfectly matches its predecessor. <br> - Providing more visually accurate interfaces (e.g. program list) <br> - Supporting older .msstyles <br> - Introducing immersive shell support <br> - Custom orb support | ✅ Completed |
-| Milestone 3 | Solving persistent bugs remaining on Windows 10 and 11. Likely to focus more on fixes and adjustments than new features. | ⏳ Work in progress |
+| Milestone 3 | Solving persistent bugs remaining on Windows 10. Likely to focus more on fixes and adjustments than new features. | ⏳ Work in progress |
 
 While this project is aimed at restoring Windows 7 explorer.exe functionality, some older explorer versions have been found to work with the wrapper. In the future, we plan to support some of these directly.  Here's the chart
 for support:
@@ -270,6 +268,6 @@ If you're having linker errors because of the prebuilt minhook, do the following
 Contributors: DON'T COMMIT YOUR MODIFIED `libMinHook.x64.lib` UNLESS SPECIFIED!
 
 ## Licensing
-The code for the project is licensed under GPLv3, to allow both for further research and for power-users to be able to make their own modifications. However, in the public interest, for the safety of users and developers alike, inclusion of compiled explorer7 DLL files in any form (whether compiled from source, forks of the source code, or from the release repository) in modified Windows ISOs, or "transformation packs", is strictly prohibited. 
+The code for the project is licensed under GPLv3, to allow both for further research and for power-users to be able to make their own modifications. For the safety of users and developers alike, inclusion of compiled explorer7 DLL files in any form (whether compiled from source, forks of the source code, or from the release repository) in modified Windows ISOs, or "transformation packs", is discouraged, though any such use, must be in compliance with the license.
 
 We reserve every right to act against unauthorised usage of the software, as outlined above.
